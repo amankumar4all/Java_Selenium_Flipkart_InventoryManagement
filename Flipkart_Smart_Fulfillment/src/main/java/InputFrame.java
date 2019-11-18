@@ -98,17 +98,16 @@ public class InputFrame extends JFrame {
 
 	}
 	public void fillDetails() throws IOException, AWTException, InterruptedException{
-//		String emailId=id.getText();
-//		String pwd=password.getText();
-//		String pickid=pickId.getText();
+		String emailId=id.getText();
+		String pwd=password.getText();
+		String pickid=pickId.getText();
 
-		String emailId="inquirytandul@gmail.com";
-		String pwd="9873403201";
-		String pickid="P080519-F80DD3CEB26C";
+		
+// 		String pickid="P080519-F80DD3CEB26C";
 		
 //		Form form=new Form(emailId,pwd);
 //		System.out.println(emailId+pwd);
-		if (emailId.equals("inquirydarzi@gmail.com") || emailId.equals("inquirytandul@gmail.com")){
+		if (emailId.equals("abc@gmail.com") || emailId.equals("xyz@gmail.com")){
 			Login login=new Login();
 			login.loginFunction(emailId,pwd,pickid);
 		}
